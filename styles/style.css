@@ -1,0 +1,112 @@
+.logo>img {
+    width: 60px;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+header {
+    background-color: var(--header);
+    padding: 10px;
+}
+:root {
+    --body: rgb(21, 21, 21);
+    --header: rgb(0, 0, 58);
+    --colors: cyan;
+    --logo: rgba(41, 41, 41, 0.522);
+    --theme: black;
+}
+body {
+    background-color: var(--body);
+}
+.logo>h2 {
+    display: inline-block;
+    color: var(--colors);
+    transform: translateY(-16px);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.logo {
+    background-color: var(--theme);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    transition: all 1s;
+}
+.logo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px var(--colors);
+    outline: 1px solid var(--colors);
+}
+nav>button {
+    color: var(--colors);
+    background-color: var(--theme);
+    transform: translateY(-16px);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: all 1s;
+}
+nav>button:hover {
+    box-shadow: 0 0 40px var(--colors);
+    outline: 1px solid var(--colors);
+    transform: translateY(-21px);
+}
+.karta-img>img {
+    width: 600px;
+    border-radius: 10px 10px 0 0;
+}
+.karta {
+    background-color: var(--header);
+    border-radius: 10px;
+    display: inline-flex;
+    transition: all 1s;
+    flex-direction: column;
+    margin: 10px;
+}
+.karta-content {
+    color: var(--colors);
+    text-align: center;
+}
+.karta-content>h2 {
+    margin: 10px;
+    width: 93%;
+    background-color: var(--theme);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 1s;
+}
+.karta-content>a>button {
+    width: 94%;
+    border-radius: 10px;
+    transition: all 1s;
+    padding: 10px;
+    background-color: var(--theme);
+    color: var(--colors);
+    margin: 10px;
+}
+.karti {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+.karta:hover {
+    box-shadow: 0 0 40px var(--colors);
+    outline: 1px solid var(--colors);
+    transform: translateY(-5px);
+}
+.karta-content>a>button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px var(--colors);
+    outline: 1px solid var(--colors);
+}
+.karta-content>h2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px var(--colors);
+    outline: 1px solid var(--colors);
+}
